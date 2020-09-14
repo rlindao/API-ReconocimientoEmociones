@@ -31,3 +31,27 @@ Python 3, OpenCV, Tensorflow
 
 
 ![](images_readme/googlecolab4.png)
+
+#### 4.- Una vez que termine el entrenamiento se creara una arhcivo llamado model.h5 el cual podras descargarlo en tu compu para luego subirlo
+
+![](images_readme/googlecolab5.png)
+
+#### 5.- Los archivos model.h5 y haarcascade_frontalface_default se encuentran subidos en este proyecto, pero el model.h5 siempre se puede mejorar si se agregan mas imagenes en la ruta de train y test para asi poder mejorar el algoritmo
+
+![](images_readme/googlecolab6.png)
+
+#### 6.- Ahora el archivo que nos permitira usar el api sera FlaskApiEmociones
+
+#### 7.- En este archivo hay que asegurarnos nuevamente montar nuestro gdrive, y cambiar la ruta respectiva en la cual se subio los archivos para poder cargar el modelo entrenado, adicional esta creado un diccionario de emociones, y al final esta una variable fecha que nos crea el el nombre de la imagen con el año,mes,dia,hora,minuto y segundo de la primera imagen que nos envian para luego hacer lo mismo pero grabando el rostro detectado
+
+![](images_readme/googlecolab7.png)
+
+![](images_readme/googlecolab8.png)
+
+![](images_readme/googlecolab9.png)
+
+#### 8.- Una vez que este todo correcto al final se debe ejecutar sin problemas y podremos ver la ruta publica que nos brinda ngrok que siempre va a cambiar cuando ejecutemos el programa
+
+
+![](images_readme/googlecolab10.png)
+
