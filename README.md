@@ -12,7 +12,22 @@ entrenado, para este proyecto se trabajo con la api de telegram ya que queriamos
 Python 3, OpenCV, Tensorflow
 
 ## Guia de implementacion 
+
 ### Google Colab
-1.- En nuestro google drive subimos los archivos 
+
+#### 1.- En nuestro google drive subimos los archivos
+
+![](images_readme/googlecolab1.png)
 
 
+![](images_readme/googlecolab2.png)
+
+#### 2.- En la carpeta src se encuentran los archivos para ejecutar, el primer archivo que ejecutaremos es Entrenado
+
+
+![](images_readme/googlecolab3.png)
+
+#### 3.- Una de las primeras cosas que hay que asegurarnos es montar el gdrive al proyecto, y revisar las rutas en donde se encuentra nuestros archivos de imagenes para train y test
+
+
+![](images_readme/googlecolab4.png)
